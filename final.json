@@ -1,119 +1,119 @@
 {
 	"categorias":[
 		{ 
-			"nombre": "Ropa"
+			"nombre": "Ropa",
 			"productos": [ {
-				"imagen": src="images/2.jpg"
-				"descripcion":"calcetines Piña"
-				"precio": 100.00
+				"imagen":"imagesjson/2.jpg",
+				"descripcion":"calcetines Piña",
+				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/3.jpg"
-				"descripcion":"Short Piña"
-				"precio": 200.00
-				"descuento":"sin descuento"	
-			},
-			{
-				"imagen": src="images/4.jpg"
-				"descripcion":"Blusa corta"
-				"precio": 150.00
+				"imagen":"imagesjson/3.jpg",
+				"descripcion":"Short Piña",
+				"precio": 200.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/5.jpg"
-				"descripcion":"Sueter corto"
-				"precio": 300.00
+				"imagen":"imagesjson/4.jpg",
+				"descripcion":"Blusa corta",
+				"precio": 150.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/6.jpg"
-				"descripcion":"	Top Piña"
-				"precio": 100.00
+				"imagen":"imagesjson/5.jpg",
+				"descripcion":"Sueter corto",
+				"precio": 300.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/7.jpg"
-				"descripcion":"Blusa"
-				"precio": 100.00
+				"imagen":"imagesjson/6.jpg",
+				"descripcion":"Top Piña",
+				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/8.jpg"
-				"descripcion":"Bikini Piña"
-				"precio": 400.00
+				"imagen":"imagesjson/7.jpg",
+				"descripcion":"Blusa",
+				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/9.jpg"
-				"descripcion":"Pantalon Piña"
-				"precio": 350.00
+				"imagen":"imagesjson/8.jpg",
+				"descripcion":"Bikini Piña",
+				"precio": 400.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/10.jpg"
-				"descripcion":"Sueter blanco"
-				"precio": 500.00
+				"imagen":"imagesjson/9.jpg",
+				"descripcion":"Pantalon Piña",
+				"precio": 350.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/11.jpg"
-				"descripcion":"Sueter gris Piña"
-				"precio": 450.00
+				"imagen":"imagesjson/10.jpg",
+				"descripcion":"Sueter blanco",
+				"precio": 500.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/12.jpg"
-				"descripcion":"Sueter Piñas locas"
-				"precio": 350.00
+				"imagen":"imagesjson/11.jpg",
+				"descripcion":"Sueter gris Piña",
+				"precio": 450.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/13.jpg"
-				"descripcion":"vestido"
-				"precio": 300.00
+				"imagen":"imagesjson/12.jpg",
+				"descripcion":"Sueter Piñas locas",
+				"precio": 350.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/14.jpg"
-				"descripcion":"Playera Piña"
-				"precio": 200.00
+				"imagen":"imagesjson/13.jpg",
+				"descripcion":"vestido",
+				"precio": 300.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/15.jpg"
-				"descripcion":" Piña Blusa"
-				"precio": 250.00
+				"imagen":"imagesjson/14.jpg",
+				"descripcion":"Playera Piña",
+				"precio": 200.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/16.jpg"
-				"descripcion":"Combo Piña"
-				"precio": 900.00
+				"imagen":"imagesjson/15.jpg",
+				"descripcion":" Piña Blusa",
+				"precio": 250.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/17.jpg"
-				"descripcion":"Tenis Piña"
-				"precio": 500.00
+				"imagen":"imagesjson/16.jpg",
+				"descripcion":"Combo Piña",
+				"precio": 900.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/18.jpg"
-				"descripcion":"Tenis blancos"
-				"precio": 600.00
+				"imagen":"imagesjson/17.jpg",
+				"descripcion":"Tenis Piña",
+				"precio": 500.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/19.jpg"
-				"descripcion":"Tenis color azul"
-				"precio": 650.00
+				"imagen":"imagesjson/18.jpg",
+				"descripcion":"Tenis blancos",
+				"precio": 600.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/20.jpg"
-				"descripcion":"Tenis"
-				"precio": 500.00
+				"imagen":"imagesjson/19.jpg",
+				"descripcion":"Tenis color azul",
+				"precio": 650.00,
+				"descuento":"sin descuento"
+			},
+			{
+				"imagen":"imagesjson/20.jpg",
+				"descripcion":"Tenis",
+				"precio": 500.00,
 				"descuento":"sin descuento"
 			}
 
@@ -121,285 +121,284 @@
 		},
 		
 		{ 
-			"nombre":"Comida"
-			"productos": [
-			{
-				"imagen": src="images/back.jpg"
-				"descripcion":"Piñas naturales"
-				"precio": 100.00
+			"nombre":"Comida",
+			"productos": [{
+				"imagen":"imagesjson/back.jpg",
+				"descripcion": "Piñas naturales",
+				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/donas.jpg"
-				"descripcion":"Donas de Piña"
-				"precio": 150.00
+				"imagen":"imagesjson/donas.jpg",
+				"descripcion":"Donas de Piña",
+				"precio": 150.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/lays.jpg"
-				"descripcion":"Lays"
-				"precio": 30.00
+				"imagen":"imagesjson/lays.jpg",
+				"descripcion":"Lays",
+				"precio": 30.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/lyo.jpg"
-				"descripcion":"cubos de Piña Lyo"
-				"precio": 150.00
+				"imagen":"imagesjson/lyo.jpg",
+				"descripcion":"cubos de Piña Lyo",
+				"precio": 150.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/postre.jpg"
-				"descripcion":"Postre de Piña"
-				"precio": 100.00
+				"imagen":"imagesjson/postre.jpg",
+				"descripcion":"Postre de Piña",
+				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/smootie.jpg"
-				"descripcion":"Smoothies"
-				"precio": 80.00
+				"imagen":"imagesjson/smootie.jpg",
+				"descripcion":"Smoothies",
+				"precio": 80.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/tacos.jpg"
-				"descripcion":"	Tacos "
-				"precio": 50.00
+				"imagen":"imagesjson/tacos.jpg",
+				"descripcion":"Tacos",
+				"precio": 50.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/tictac.jpg"
-				"descripcion":"Tictac Piña"
-				"precio": 40.00
+				"imagen":"imagesjson/tictac.jpg",
+				"descripcion":"Tictac Piña",
+				"precio": 40.00,
 				"descuento":"sin descuento"
-			},
+			}
 
 
 
 			]
 		},
 		{
-			"nombre": "Accesorios"
+			"nombre": "Accesorios",
 			"productos":[
 
 			{
 
-				"imagen": src="images/anillo.jpg"
-				"descripcion":"Anillo"
-				"precio": 100.00
+				"imagen":"imagesjson/anillo.jpg",
+				"descripcion":"Anillo",
+				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/collar.jpg"
-				"descripcion":"Collar"
-				"precio": 120.00
+				"imagen":"imagesjson/collar.jpg",
+				"descripcion":"Collar",
+				"precio": 120.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/collar2.jpg"
-				"descripcion":"Collar"
-				"precio": 120.00
+				"imagen":"imagesjson/collar2.jpg",
+				"descripcion":"Collar",
+				"precio": 120.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/lentes.jpg"
-				"descripcion":"Lentes Piña"
-				"precio": 100.00
+				"imagen":"imagesjson/lentes.jpg",
+				"descripcion":"Lentes Piña",
+				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/llavero.jpg"
-				"descripcion":"Llavero Piña"
-				"precio": 60.00
+				"imagen":"imagesjson/llavero.jpg",
+				"descripcion":"Llavero Piña",
+				"precio": 60.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/ojos.jpg"
-				"descripcion":"Antifaz"
-				"precio": 100.00
+				"imagen":"imagesjson/ojos.jpg",
+				"descripcion":"Antifaz",
+				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/gorro.jpg"
-				"descripcion":"Gorro tejido para niño"
-				"precio": 150.00
+				"imagen":"imagesjson/gorro.jpg",
+				"descripcion":"Gorro tejido para niño",
+				"precio": 150.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/buf.jpg"
-				"descripcion":"Pashmina Piña"
-				"precio": 85.00
+				"imagen":"imagesjson/buf.jpg",
+				"descripcion":"Pashmina Piña",
+				"precio": 85.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/mochila1.jpg"
-				"descripcion":"Mochila"
-				"precio": 400.00
+				"imagen":"imagesjson/mochila1.jpg",
+				"descripcion":"Mochila",
+				"precio": 400.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/mochila2.jpg"
-				"descripcion":"Bolsa tipo mochila de piña"
-				"precio": 300.00
+				"imagen":"imagesjson/mochila2.jpg",
+				"descripcion":"Bolsa tipo mochila de piña",
+				"precio": 300.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/r1.jpg"
-				"descripcion":"Reloj de mano"
-				"precio": 100.00
+				"imagen":"imagesjson/r1.jpg",
+				"descripcion":"Reloj de mano",
+				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/r2.jpg"
-				"descripcion":"Reloj de mano blanco"
-				"precio": 120.00
+				"imagen":"imagesjson/r2.jpg",
+				"descripcion":"Reloj de mano blanco",
+				"precio": 120.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/protector.jpg"
-				"descripcion":"Protector de Piña"
-				"precio": 150.00
+				"imagen":"imagesjson/protector.jpg",
+				"descripcion":"Protector de Piña",
+				"precio": 150.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/case.jpg"
-				"descripcion":"Protector de celular"
-				"precio": 250.00
+				"imagen":"imagesjson/case.jpg",
+				"descripcion":"Protector de celular",
+				"precio": 250.00,
 				"descuento":"sin descuento"
 			}
 
 			]
 		},
 		{
-			"nombre":"De decoracion"
+			"nombre":"De decoracion",
 			"productos":[
 			{
-				"imagen": src="images/adorno.jpg"
-				"descripcion":"Adorno para mesa de Piña"
-				"precio": 600.00
+				"imagen":"imagesjson/adorno.jpg",
+				"descripcion": "Adorno para mesa de Piña",
+				"precio": 600.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/adorno2.jpg"
-				"descripcion":"Puercoespín de Piña"
-				"precio": 400.00
+				"imagen":"imagesjson/adorno2.jpg",
+				"descripcion":"Puercoespín de Piña",
+				"precio": 400.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/adorno3.jpg"
-				"descripcion":"Piña"
-				"precio": 500.00
+				"imagen":"imagesjson/adorno3.jpg",
+				"descripcion":"Piña",
+				"precio": 500.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/almohadas.jpg"
-				"descripcion":"Set de 8 almohadas"
-				"precio": 1000.00
+				"imagen":"imagesjson/almohadas.jpg",
+				"descripcion":"Set de 8 almohadas",
+				"precio": 1000.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/buho.jpg"
-				"descripcion":"Buho hecho de Piña"
-				"precio": 400.00
+				"imagen":"imagesjson/buho.jpg",
+				"descripcion":"Buho hecho de Piña",
+				"precio": 400.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/calabaza.jpg"
-				"descripcion":" Piña iluminada"
-				"precio": 700.00
+				"imagen":"imagesjson/calabaza.jpg",
+				"descripcion":" Piña iluminada",
+				"precio": 700.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/cuadro.jpg"
-				"descripcion":"Cuadro"
-				"precio": 300.00
+				"imagen":"imagesjson/cuadro.jpg",
+				"descripcion":"Cuadro",
+				"precio": 300.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/cuadro2.jpg"
-				"descripcion":"Cuadro tropical"
-				"precio": 800.00
+				"imagen":"imagesjson/cuadro2.jpg",
+				"descripcion":"Cuadro tropical",
+				"precio": 800.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/cuadro3.jpg"
-				"descripcion":"Piña hecha de hilo"
-				"precio": 200.00
+				"imagen":"imagesjson/cuadro3.jpg",
+				"descripcion":"Piña hecha de hilo",
+				"precio": 200.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/decorador.jpg"
-				"descripcion":"Set decorador"
-				"precio": 1500.00
+				"imagen":"imagesjson/decorador.jpg",
+				"descripcion":"Set decorador",
+				"precio": 1500.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/gold.jpg"
-				"descripcion":"Piñas doradas"
-				"precio": 800.00
+				"imagen":"imagesjson/gold.jpg",
+				"descripcion":"Piñas doradas",
+				"precio": 800.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/lampara.jpg"
-				"descripcion":"Lampara de  Piña"
-				"precio": 1200.00
+				"imagen":"imagesjson/lampara.jpg",
+				"descripcion":"Lampara de  Piña",
+				"precio": 1200.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/pink.jpg"
-				"descripcion":"Piñas decoradas"
-				"precio": 400.00
+				"imagen":"imagesjson/pink.jpg",
+				"descripcion":"Piñas decoradas",
+				"precio": 400.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/plato.jpg"
-				"descripcion":"Vajilla Piña"
-				"precio": 600.00
+				"imagen":"imagesjson/plato.jpg",
+				"descripcion":"Vajilla Piña",
+				"precio": 600.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/skate.jpg"
-				"descripcion":"Tabla de skate"
-				"precio": 700.00
+				"imagen":"imagesjson/skate.jpg",
+				"descripcion":"Tabla de skate",
+				"precio": 700.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/relojpared.jpg"
-				"descripcion":"Reloj de pared"
-				"precio": 200.00
+				"imagen":"imagesjson/relojpared.jpg",
+				"descripcion":"Reloj de pared",
+				"precio": 200.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/serie.jpg"
-				"descripcion":"Serie de Piña"
-				"precio": 500.00
+				"imagen":"imagesjson/serie.jpg",
+				"descripcion":"Serie de Piña",
+				"precio": 500.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/tapete.jpg"
-				"descripcion":"Tapete de Piñas"
-				"precio": 250.00
+				"imagen":"imagesjson/tapete.jpg",
+				"descripcion":"Tapete de Piñas",
+				"precio": 250.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/taza.jpg"
-				"descripcion":"Taza"
-				"precio": 100.00
+				"imagen":"imagesjson/taza.jpg",
+				"descripcion":"Taza",
+				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/taza2.jpg"
-				"descripcion":"Tazas con forma de Piña"
-				"precio": 320.00
+				"imagen":"imagesjson/taza2.jpg",
+				"descripcion":"Tazas con forma de Piña",
+				"precio": 320.00,
 				"descuento":"sin descuento"
 			},
 			{
-				"imagen": src="images/vaso.jpg"
-				"descripcion":"Vaso coctelero"
-				"precio": 100.00
+				"imagen":"imagesjson/vaso.jpg",
+				"descripcion":"Vaso coctelero",
+				"precio": 100.00,
 				"descuento":"sin descuento"
 			}
 			]
 
-		},
+		}
 	]
 
 	
