@@ -1,3 +1,7 @@
+.pic{
+  max-height: none;
+}
+
 body{
   color: black;
 }
