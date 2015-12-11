@@ -1,6 +1,6 @@
 {
-	"categorias":[
-		{ 
+	"categorias":{
+		"ropa": { 
 			"nombre": "Ropa",
 			"productos": [ {
 				"imagen":"imagesjson/2.jpg",
@@ -120,7 +120,7 @@
 			]
 		},
 		
-		{ 
+		"comida": { 
 			"nombre":"Comida",
 			"productos": [{
 				"imagen":"imagesjson/back.jpg",
@@ -175,7 +175,7 @@
 
 			]
 		},
-		{
+		"accesorios": {
 			"nombre": "Accesorios",
 			"productos":[
 
@@ -267,8 +267,8 @@
 
 			]
 		},
-		{
-			"nombre":"De decoracion",
+		"decoracion": {
+			"nombre":"Decoración",
 			"productos":[
 			{
 				"imagen":"imagesjson/adorno.jpg",
@@ -399,7 +399,6 @@
 			]
 
 		}
-	]
-
+	}
 	
 }
