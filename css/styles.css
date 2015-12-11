@@ -32,13 +32,22 @@ h2{
 .detalle{
 	margin-top: 300px;
 }
+.detalle-img{
+  text-align: center;
+}
+.detalle-img img{
+  max-height: 85vh;
+  max-width: 100%;
+
+}
 
 /* .modal-fullscreen */
 .modal-title {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .close{
 	font-size: 3.5em;
+  margin-top: -5px;
 }
 .modal-fullscreen {
   background: white;
