@@ -1,132 +1,178 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <script type='text/javascript' src='jquery.js'></script>
-            <link rel="stylesheet" type="text/css" href="tienda.css">
-    </head>
-    <body>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/tienda.css">
+	<title></title>
+</head>
+<body>
+	<div class="grid">
+		<div class="grid-sizer"></div>
+		<div class="grid-item">
+			<img src="imagesjson/2.jpg" />
+		</div>
+		<div class="grid-item">
+			<img src="imagesjson/3.jpg" />
+		</div>
+		<div class="grid-item">
+			<img src="imagesjson/4.jpg" />
+		</div>
+		<div class="grid-item">
+			<img src="imagesjson/5.jpg" />
+		</div>
+		<div class="grid-item">
+			<img src="imagesjson/6.jpg" />
+		</div>
+		<div class="grid-item">
+			<img src="imagesjson/7.jpg" />
+		</div>
+		<div class="grid-item">
+			<img src="imagesjson/8.jpg" />
+		</div>
+		<div class="grid-item">
+			<img src="imagesjson/9.jpg" />
+		</div>
+		<div class="grid-item">
+			<img src="imagesjson/10.jpg" />
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/tienda.js"></script>
+
+</body>
+</html>
+
+<!-- <html>
+	<head>
+		<script type='text/javascript' src='jquery.js'></script>
+			<link rel="stylesheet" type="text/css" href="tienda.css">
+	</head>
+	<body>
    
-            <div id="tienda" >
-                        <div class="item">
-                                <div></div>
-                            </div>
-                            <div class="item">
-                                <div><img src="imagesjson/2.jpg"></div>
-                            </div>
-                        <div class="item">
-                                <div><img src="imagesjson/3.jpg"></div>
-                            </div>
-                        <div class="item">
-                                <div><img src="imagesjson/4.jpg"></div>
-                            </div>
-                         <div class="item">
-                               <div><img src="imagesjson/5.jpg"></div>
-                            </div>
-                            
-                    
-                        <div class="item">
-                               <div><img src="imagesjson/6.jpg"></div>
-                            </div>
-                            
-                        
-                        <div class="item">
-                               <div><img src="imagesjson/7.jpg"></div>
-                            </div>
-                            
-                        
-                        <div class="item">
-                               <div><img src="imagesjson/8.jpg"></div>
-                            </div>
-                           
-                        <div class="item">
-                               <div><img src="imagesjson/9.jpg"></div>
-                            </div>
-                            
-                        
-                        <div class="item">
-                               <div><img src="imagesjson/10.jpg"></div>
-                            </div>
-                            
-                        
-                        <div class="item">
-                               <div><img src="imagesjson/11.jpg"></div>
-                            </div>
-                        <div class="item">
-                               <div><img src="imagesjson/12.jpg"></div>
-                            </div>
-                        <div class="item">
-                               <div><img src="imagesjson/13.jpg"></div>
-                            </div>
-                        <div class="item">
-                               <div><img src="imagesjson/14.jpg"></div>
-                            </div>
-                        <div class="item">
-                               <div><img src="imagesjson/15.jpg"></div>
-                            </div>
-                        <div class="item">
-                               <div><img src="imagesjson/16.jpg"></div>
-                            </div>
-                        <div class="item">
-                               <div><img src="imagesjson/17.jpg"></div>
-                            </div>
-                        <div class="item">
-                               <div><img src="imagesjson/18.jpg"></div>
-                            </div>
-                        <div class="item">
-                               <div><img src="imagesjson/19.jpg"></div>
-                            </div>
-                        
-                        <div class="item">
-                               <div><img src="imagesjson/20.jpg"></div>
-                            </div>
-                        <div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div>
-                            <div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div>
-                            <div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div>
-                            <div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div>
-                            <div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div>
-                            <div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div>
-                            <div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div>
-                            <div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div>
-                            <div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div>
-                            <div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div><div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div><div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div><div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div><div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div><div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div><div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div><div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div><div class="item">
-                               <div><img src="imagesjson/"></div>
-                            </div>
-             <script type='text/javascript' src='jquery.grid.js'></script>
-                        
-            <script type='text/javascript' >
+			<div id="tienda" >
+						<div class="item">
+								<div></div>
+							</div>
+							<div class="item">
+								<div><img src="imagesjson/2.jpg"></div>
+							</div>
+						<div class="item">
+								<div><img src="imagesjson/3.jpg"></div>
+							</div>
+						<div class="item">
+								<div><img src="imagesjson/4.jpg"></div>
+							</div>
+						 <div class="item">
+							   <div><img src="imagesjson/5.jpg"></div>
+							</div>
+							
+					
+						<div class="item">
+							   <div><img src="imagesjson/6.jpg"></div>
+							</div>
+							
+						
+						<div class="item">
+							   <div><img src="imagesjson/7.jpg"></div>
+							</div>
+							
+						
+						<div class="item">
+							   <div><img src="imagesjson/8.jpg"></div>
+							</div>
+						   
+						<div class="item">
+							   <div><img src="imagesjson/9.jpg"></div>
+							</div>
+							
+						
+						<div class="item">
+							   <div><img src="imagesjson/10.jpg"></div>
+							</div>
+							
+						
+						<div class="item">
+							   <div><img src="imagesjson/11.jpg"></div>
+							</div>
+						<div class="item">
+							   <div><img src="imagesjson/12.jpg"></div>
+							</div>
+						<div class="item">
+							   <div><img src="imagesjson/13.jpg"></div>
+							</div>
+						<div class="item">
+							   <div><img src="imagesjson/14.jpg"></div>
+							</div>
+						<div class="item">
+							   <div><img src="imagesjson/15.jpg"></div>
+							</div>
+						<div class="item">
+							   <div><img src="imagesjson/16.jpg"></div>
+							</div>
+						<div class="item">
+							   <div><img src="imagesjson/17.jpg"></div>
+							</div>
+						<div class="item">
+							   <div><img src="imagesjson/18.jpg"></div>
+							</div>
+						<div class="item">
+							   <div><img src="imagesjson/19.jpg"></div>
+							</div>
+						
+						<div class="item">
+							   <div><img src="imagesjson/20.jpg"></div>
+							</div>
+						<div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div>
+							<div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div>
+							<div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div>
+							<div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div>
+							<div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div>
+							<div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div>
+							<div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div>
+							<div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div>
+							<div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div>
+							<div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div><div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div><div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div><div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div><div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div><div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div><div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div><div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div><div class="item">
+							   <div><img src="imagesjson/"></div>
+							</div>
+			 <script type='text/javascript' src='jquery.grid.js'></script>
+						
+			<script type='text/javascript' >
 jQuery("#tienda").gridalicious({
 width: 200,
 animate: true,
@@ -140,3 +186,4 @@ duration: 300,
 </html> 
 						
 						
+ -->
