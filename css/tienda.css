@@ -1,39 +1,75 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* force scrollbar */
 html { overflow-y: scroll; }
 
 body {
-	font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 /* ---- isotope ---- */
 
 .grid {
-	background: #DDD;
+  margin: 0 auto;
 }
 
 /* clear fix */
 .grid:after {
-	content: '';
-	display: block;
-	clear: both;
+  content: '';
+  display: block;
+  clear: both;
 }
 
 /* ---- .grid-item ---- */
 
 .grid-sizer,
 .grid-item {
-	width: 33.333%;
+  width: 200px;
+  float: left;
+  border: 1px solid #ccc;
+  padding: 10px 10px 10px 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-bottom: 35px;
+  background-color: white;
 }
 
 .grid-item {
-	float: left;
+  float: left;
 }
 
 .grid-item img {
-	display: block;
-	max-width: 100%;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.img_thumb{
+    float: left;
+    border: 1px solid #ccc;
+    padding: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    background-color: white;
+}
+/*  capa hover con la descripcion de cada miniatura */
+.img_desc{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    opacity: 0.9;
+    padding: 5px 5px 5px 5px;
+    display: none;
+ 
+}
+.img_thumb img{
+    z-index: -1;
 }
