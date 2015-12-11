@@ -117,7 +117,7 @@ body {
   overflow: hidden;
   position: relative;
   text-decoration: none;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   border-radius: 3px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
