@@ -147,7 +147,7 @@ html {
   display:table;
 }
 body {
-  display:table-cell;
+  /*display:table-cell;*/
   vertical-align:middle;
 }
 
@@ -296,6 +296,10 @@ body {
     display: none;
     text-align: left;
  
+}
+
+.navbar-fixed-bottom {
+  background-color: salmon;
 }
 
 @media only screen and (min-width: 400px) {
