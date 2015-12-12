@@ -4,7 +4,7 @@
 			"nombre": "Ropa",
 			"productos": [ {
 				"imagen":"imagesjson/2.jpg",
-				"nombre":"calcetines Piña",
+				"nombre":"Calcetines Piña",
 				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
