@@ -26,7 +26,13 @@ h2{
 .carousel-control.left, .carousel-control.right {
 	background-image: none;	
 }
-
+.navbar{
+  /*position: inherit;*/
+  margin-bottom: 0;
+}
+.navbar-interior{
+  margin-top: -6px;
+}
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -42,12 +48,43 @@ h2{
   margin: 40px 60px;
   color: black;
 }
+
 .nav>li>a:focus, .nav>li>a:hover {
      text-decoration: underline; 
      background-color: transparent; 
 }
 
+.nav .menu-link-interior{
+  font-size: 2em;
+  margin: 15px 60px;
+  font-family: 'Amatic SC', sans-serif;
+  color: black;
+}
+.nav .menu-logo-interior img{
+  max-height: 50px;
+  margin-top: -5px;
+}
+.navbar-default{
+  margin-top: -10px;
+  min-height: 40px;
+  border:none;
+}
+.navbar-default li a{
+  max-height: 30px;
+  padding-top: 8px;
+  margin: 0;
+  color: #fff !important;
+
+
+}
+
+
+
+
 /*DETALLE*/
+.wrapper{
+  margin-top: 20px;
+}
 .template{
   display: none;
 }
