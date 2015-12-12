@@ -4,102 +4,119 @@
 			"descripcion": "Ropa",
 			"productos": [ {
 				"imagen":"imagesjson/2.jpg",
+				"nombre": "Calcetines de Piña",
 				"descripcion":"Calcetines medianos con estampado de Piña ",
 				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/3.jpg",
+				"nombre":"Short corto",
 				"descripcion":"Short blanco corto con estampado",
 				"precio": 200.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/4.jpg",
+				"nombre":"Blusa cuadrada",
 				"descripcion":"Blusa corta cuadrada con manga",
 				"precio": 150.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/5.jpg",
+				"nombre":"Sueter corto",
 				"descripcion":"Sueter corto, manga larga, negro con estampado",
 				"precio": 300.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/6.jpg",
-				"descripcion":"Crop top azul estampado",
+				"nombre":"Crop top",
+				"descripcion":"Crop top azul corto con estampado ",
 				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/7.jpg",
+				"nombre":"Blusa",
 				"descripcion":"Blusa blanca holgada sin mangas",
 				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/8.jpg",
+				"nombre":"Bikini negro",
 				"descripcion":"Traje de baño negro de dos piezas estampado de Piñas",
 				"precio": 400.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/9.jpg",
-				"descripcion":"Pantalon blanco ajustable con estampado",
+				"nombre":"Pantalon",
+				"descripcion":"Pantalon blanco ajustado con estampado",
 				"precio": 350.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/10.jpg",
+				"nombre":"Sueter completo",
 				"descripcion":"Sueter blanco de manga larga con estampado",
 				"precio": 500.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/11.jpg",
+				"nombre":"Sueter gris",
 				"descripcion":"Sueter gris liso holgado con estampado ",
 				"precio": 450.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/12.jpg",
+				"nombre":"Sueter Piñas locas",
 				"descripcion":"Sueter negro completo con estampado de Piñas locas",
 				"precio": 350.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/13.jpg",
+				"nombre":"Vestido corto",
 				"descripcion":"vestido de mezclilla corto, sin mangas",
 				"precio": 300.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/14.jpg",
+				"nombre":"Playera hombre",
 				"descripcion":"Playera para hombre azul con estampado",
 				"precio": 200.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/15.jpg",
+				"nombre":"Blusa holgada",
 				"descripcion":"Blusa de piña blanca holgada",
 				"precio": 250.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/16.jpg",
+				"nombre":"Combo Tu no vendes piñas",
 				"descripcion":"Combo Tu no vendes Piñas: Vestido, pashmina,tenis,cartera,audifonos,cuadro,esmalte,protector y más.",
 				"precio": 900.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/17.jpg",
-				"descripcion":"Vans negros con Piñas",
+				"nombre":"Vans",
+				"descripcion":"Vans negros con Piñas en el estampado",
 				"precio": 500.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/18.jpg",
+				"nombre":"Vans blancos",
 				"descripcion":"Tenis tipo vans blancos con estampado",
 				"precio": 600.00,
 
@@ -107,13 +124,15 @@
 			},
 			{
 				"imagen":"imagesjson/19.jpg",
-				"descripcion":"Keds color azul estampdos",
+				"nombre":"Keds azules",
+				"descripcion":"Keds color azul con estampdo",
 				"precio": 650.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/20.jpg",
-				"descripcion":"Converse blancos con piñas en el estampado",
+				"nombre":"Tenis Tu no vendes piñas edicion especial",
+				"descripcion":"Converse blancos con piñas en el estampado, edicion especial de Tu no vendes Piñas",
 				"precio": 500.00,
 				"descuento":"sin descuento"
 			}
@@ -125,48 +144,56 @@
 			"descripcion":"Comida",
 			"productos": [{
 				"imagen":"imagesjson/back.jpg",
-				"descripcion": "Piñas naturales por kilo y cantidad",
+				"nombre":"Piñas naturales",
+				"descripcion": "Compra piñas naturales por kilo y cantidad",
 				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/donas.jpg",
-				"descripcion":"Donas de Piña decoradas",
+				"nombre":"Donas",
+				"descripcion":"Donas de Piña decoradas con chocolate",
 				"precio": 150.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/lays.jpg",
+				"nombre":"Nuevas Lays ",
 				"descripcion":"Lays de jamón y piña edición limitada",
 				"precio": 30.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/lyo.jpg",
+				"nombre":"Cubos Lyo",
 				"descripcion":"Cubos de Piña deshidratada marca Lyo",
 				"precio": 150.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/postre.jpg",
+				"nombre":"Postre de piña",
 				"descripcion":"Postre de Piña con galleta y decorada con piña en almibar",
 				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/smootie.jpg",
+				"nombre":"Smoothies",
 				"descripcion":"Smoothies de frutasde temporada con piña",
 				"precio": 80.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/tacos.jpg",
+				"nombre":"Tacos",
 				"descripcion":"Tacos al pastor con extra piña",
 				"precio": 50.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/tictac.jpg",
+				"nombre":"Tictac",
 				"descripcion":"Tictac de Piña edición limitada",
 				"precio": 40.00,
 				"descuento":"sin descuento"
@@ -183,84 +210,98 @@
 			{
 
 				"imagen":"imagesjson/anillo.jpg",
+				"nombre":"Anillo",
 				"descripcion":"Anillo de piña dorado ",
 				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/collar.jpg",
+				"nombre":"Collar",
 				"descripcion":"Collar de piña dorado pequeño",
 				"precio": 120.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/collar2.jpg",
+				"nombre":"Collar con dije",
 				"descripcion":"Collar con dije de piña dorado",
 				"precio": 120.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/lentes.jpg",
+				"nombre":"Lentes",
 				"descripcion":"Lentes modernos con forma de piña",
 				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/llavero.jpg",
+				"nombre":"Llavero",
 				"descripcion":"Llavero de Piña ajustable",
 				"precio": 60.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/ojos.jpg",
+				"nombre":"Antifaz",
 				"descripcion":"Antifaz para dormir ajustable de piña feliz",
 				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/gorro.jpg",
+				"nombre":"Gorro tejido",
 				"descripcion":"Gorro de piña tejido para niño",
 				"precio": 150.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/buf.jpg",
+				"nombre":"Pashmina",
 				"descripcion":"Pashmina blanca con estampado de Piñas doradas",
 				"precio": 85.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/mochila1.jpg",
+				"nombre":"Mochila",
 				"descripcion":"Mochila azul grande con estampado de piña",
 				"precio": 400.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/mochila2.jpg",
+				"nombre":"Bolsa de piña",
 				"descripcion":"Bolsa pequeña tipo mochila con forma de piña",
 				"precio": 300.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/r1.jpg",
+				"nombre":"Reloj de mano",
 				"descripcion":"Reloj brillante de mano con forma de piña",
 				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/r2.jpg",
+				"nombre":"Relo de mano blanco",
 				"descripcion":"Reloj de mano blanco con fondo de piña",
 				"precio": 120.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/protector.jpg",
+				"nombre":"Protector",
 				"descripcion":"Protector azul con estampa de Piña",
 				"precio": 150.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/case.jpg",
+				"nombre":"Protector transparente",
 				"descripcion":"Protector de celular transparente con piñas",
 				"precio": 250.00,
 				"descuento":"sin descuento"
@@ -273,126 +314,147 @@
 			"productos":[
 			{
 				"imagen":"imagesjson/adorno.jpg",
+				"nombre":"Adorno con frutas",
 				"descripcion": "Adorno para mesa de Piña y otras frutas",
 				"precio": 600.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/adorno2.jpg",
+				"nombre":"Puercoespín",
 				"descripcion":"Puercoespín hecho de Piña",
 				"precio": 400.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/adorno3.jpg",
+				"nombre":"Piña dorada",
 				"descripcion":"Piña dorada para adornar",
 				"precio": 500.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/almohadas.jpg",
+				"nombre":"Set almohadas",
 				"descripcion":"Set de 8 almohadas con estampado",
 				"precio": 1000.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/buho.jpg",
+				"nombre":"Buho con frutas",
 				"descripcion":"Adorno de Buho hecho de Piña y frutas",
 				"precio": 400.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/calabaza.jpg",
+				"nombre":"Piña iluminada",
 				"descripcion":"Adorno para halloween de Piña",
 				"precio": 700.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/cuadro.jpg",
+				"nombre":"Cuadro moderno",
 				"descripcion":"Cuadro moderno de piñas",
 				"precio": 300.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/cuadro2.jpg",
+				"nombre":"Cuadro",
 				"descripcion":"Cuadro tropical",
 				"precio": 800.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/cuadro3.jpg",
+				"nombre":"Piña en cuadro",
 				"descripcion":"Cuadro rústico con forma de Piña hecho de hilo",
 				"precio": 200.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/decorador.jpg",
-				"descripcion":"Set decorador: almohadas,lampara,cuadro,bolsa y adornos relacionados",
+				"nombre":"Set de decoración",
+				"descripcion":"Almohadas,lampara,cuadro,bolsa y adornos relacionados",
 				"precio": 1500.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/gold.jpg",
+				"nombre":"Set de piñas",
 				"descripcion":"Set de 5 Piñas doradas para decorar",
 				"precio": 800.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/lampara.jpg",
+				"nombre":"Lamparas",
 				"descripcion":"Lamparas colgantes con forma de  Piña",
 				"precio": 1200.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/pink.jpg",
+				"nombre":"3 piñas en una",
 				"descripcion":"Adornos modernos con forma de piña",
 				"precio": 400.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/plato.jpg",
+				"nombre":"Vajilla",
 				"descripcion":"Vajilla decorada con estampado de Piña",
 				"precio": 600.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/skate.jpg",
+				"nombre":"skate",
 				"descripcion":"Tabla de skate decorativa estampada",
 				"precio": 700.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/relojpared.jpg",
+				"nombre":"Reloj decorativo",
 				"descripcion":"Reloj de pared mediano con estampado de piña",
 				"precio": 200.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/serie.jpg",
+				"nombre":"Piñas en serie",
 				"descripcion":"Serie de Piñas con iluminación",
 				"precio": 500.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/tapete.jpg",
+				"nombre":"Tapete",
 				"descripcion":"Tapete para entrada de Piñas",
 				"precio": 250.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/taza.jpg",
+				"nombre":"Taza",
 				"descripcion":"Taza con estampado de piñas",
 				"precio": 100.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/taza2.jpg",
+				"nombre":"Piñas en taza",
 				"descripcion":"Set de tazas con forma de Piña",
 				"precio": 320.00,
 				"descuento":"sin descuento"
 			},
 			{
 				"imagen":"imagesjson/vaso.jpg",
+				"nombre":"Vaso",
 				"descripcion":"Vaso coctelero pequeño decorado",
 				"precio": 100.00,
 				"descuento":"sin descuento"
