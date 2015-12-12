@@ -23,6 +23,10 @@ h2{
 	font-size: 3.5em;
 	margin-top: 0;
 }
+
+footer{
+  margin-bottom: 0px;
+}
 .carousel-control.left, .carousel-control.right {
 	background-image: none;	
 }
@@ -114,6 +118,10 @@ h2{
 .btn-anadir span{
   padding-right: 8px;
   font-size: 1.2em;
+}
+.btn-simple{
+  text-align: center;
+  vertical-align: center;
 }
 .signo-pesos{
   font-size: 1.7em;
@@ -354,8 +362,29 @@ body {
  
 }
 
-.navbar-fixed-bottom {
+.navbar-default {
   background-color: salmon;
+  bottom: 0;
+}
+
+.ul.nav.navbar-bottom.navbar-left{
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+
+#aviso_p {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 0px;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar.navbar-bottom{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  min-height: 74px;
+
 }
 
 @media only screen and (min-width: 400px) {
@@ -390,7 +419,9 @@ body {
     }
 }
 
-
+#cuadros{
+  margin-top: 20px;
+}
 
 
 
