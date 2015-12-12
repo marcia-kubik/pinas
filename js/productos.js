@@ -1,7 +1,10 @@
-var myDataRef = new Firebase('https://tunovendespinas.firebaseio.com/');
 
+global_data = null;
+global_productos = null;
+var myDataRef = new Firebase('https://tunovendespinas.firebaseio.com/');
 myDataRef.on("value", function(snapshot) {
   var data = snapshot.val();
+  global_data = data;
   // productos_ropa = snapshot.child("categorias/ropa/productos").val();
 
   var productos_accesorios = data.categorias.accesorios.productos
@@ -11,6 +14,7 @@ myDataRef.on("value", function(snapshot) {
 
   var productos = productos_decoracion.concat(productos_ropa).concat(productos_comida).concat(productos_accesorios)
   console.log(productos.length)
+  global_productos = productos;
 
   var template = $('.thumb');
   var grid = $('#grid');
@@ -28,36 +32,36 @@ myDataRef.on("value", function(snapshot) {
   	item.find('.grid-precio').text(producto.precio);
 
   	grid.append(item);
+  	activar_hover();
   	
   });
-  activar_hover()
-
 });
+  function cargar_detalle(e){
+  	// console.log(e)
+  		elem = $(e);
+  		console.log(elem)
+  		nombre = elem.data("nombre");
+  		console.log(nombre);
+  		console.log("RUNNINNNG")
+    	global_productos.forEach(function(producto){
+    	if(producto.nombre == nombre ){
+    		$("#nombre").text(producto.nombre);
+    		$("#descripcion").text(producto.descripcion);
+    		$("#precio").html(producto.precio+'.<sup>00<sup>')
+    		$("#imagen").attr("src", producto.imagen);
+    	}
+    });
+    }
 
-
-  function cargar_detalle(productos){
-  	productos.forEach(function(producto){
-  	if(producto.nombre == 'tacos' ){
-  		$("#nombre").text(producto.nombre);
-  		$("#descripcion").text(producto.descripcion);
-  		$("#precio").append(producto.precio+'.<sup>00<sup>')
-  		$("#imagen").attr("src", producto.imagen);
-
-
-  	}
-
+    function activar_hover(){
+    	$('.thumb').hover( function(){
+	      target = $(this);
+	      // console.log(target)
+	      target.find(".img_desc").first().fadeIn(200);
+	      target.find(".img_desc").first().fadeIn(200);
+  		}, function(){
+	      target = $(this);
+	      $(target[0].firstElementChild).fadeOut(200);
+	      console.log('yesyesyes')
   });
-  }
-
-  function activar_hover(){
-  	$('.thumb').hover( function(){
-    target = $(this);
-    console.log(target)
-    target.find(".img_desc").first().fadeIn(200);
-    target.find(".img_desc").first().fadeIn(200);
-}, function(){
-    target = $(this);
-    $(target[0].firstElementChild).fadeOut(200);
-    console.log('yesyesyes')
-});
-  }
+    }

@@ -67,6 +67,9 @@
 					<li><a href="#">Accesorios</a></li>
 					<li><a href="#">Ropa</a></li>
 					<li><a href="#">Decoración</a></li>
+					<li class="bg_purple" style="padding-bottom:10px;"><a href="perfil.html">
+						<img src="images/carrito.png" style="max-height:20px;" /> Carrito: 3</a>
+						</li>
 				</ul>
 			</div>
 		</div>
@@ -77,17 +80,14 @@
 	<div class="container wrapper">
 		<div id="grid" class="grid">
 
-			<div class="template thumb" onclick="cargar_detalle()">
-				<div style="text-align:center;" class="img_desc" data-categoria="ropa" data-nombre="un producto" >
+			<div class="template thumb" >
+				<div style="text-align:center;" onclick="cargar_detalle(this)" data-toggle="modal" data-target="#modal-fullscreen" class="img_desc" data-categoria="ropa" data-nombre="un producto" >
 					<h4 class="grid-nombre">Nombre de producto</h4>
 			    <span style="font-size:1.2em;" class="green glyphicon glyphicon-usd signo-pesos" aria-hidden="true"></span>
 					<h5 class="grid-precio green">Precio</h5>
 				</div>
 				<img class="grid-imagen" src="imagesjson/2.jpg">
-
 			</div>
-
-
 		</div>
 
 
@@ -109,6 +109,45 @@
 			</div>
 		</div>
 	</footer>
+
+	<!-- Modal fullscreen -->
+			<div class="modal modal-fullscreen fade" id="modal-fullscreen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content container">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			        <img class="logo-modal" src="images/logo.png">
+			        <h3 class="modal-title" id="myModalLabel">Tú no vendes piñas</h3>
+			      </div>
+			      <div class="modal-body">
+			        <div class="col-sm-7 detalle-img">
+			        	<img id="imagen" src="imagesjson/16.jpg">
+			        </div>
+			        <div class="col-sm-5 detalle-contenido">
+			        <div>
+			        	<h3 id="nombre" class="purple">Título del producto</h3>
+			        </div>
+			        	<div class="detalle-descripcion">
+			        		<p id="descripcion">Descripción del producto </p>
+			        	</div>
+			        	<div class="detalle-precio green">
+			        		<span class="glyphicon glyphicon-usd signo-pesos" aria-hidden="true"></span>
+			        		<h3 class="precio" id="precio"></h3>
+			        	</div>
+			        	<button class="button bg_red btn-anadir"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"> </span> Añadir al carrito</button>
+
+			        </div>
+			      </div>
+			      <!-- <div class="modal-footer">
+			      ...
+			      </div> -->
+			    </div>
+			  </div>
+			</div>
+
+
+
+
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="js/modernizr.js"></script>
