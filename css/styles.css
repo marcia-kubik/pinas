@@ -29,6 +29,9 @@ h2{
 
 
 /*DETALLE*/
+.template{
+  display: none;
+}
 .detalle{
 	/*margin-top: 300px;*/
 }
@@ -60,9 +63,9 @@ h2{
   font-size: 1.7em;
 }
 .logo-modal{
-    margin-top: 12px;
+    margin-top: 8px;
     margin-right: 10px;
-    max-height: 45px;
+    max-height: 44px;
     float: left;
 }
 sup{
@@ -87,7 +90,7 @@ sup{
   padding-top: 10px;
   font-family: 'Amatic SC', sans-serif;
   font-weight: 700;
-  font-size: 2.5em;
+  font-size: 2.3em;
 }
 .close{
 	font-size: 3.5em;
