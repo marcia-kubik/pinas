@@ -5,7 +5,7 @@ myDataRef.on("value", function(snapshot) {
   // productos_ropa = snapshot.child("categorias/ropa/productos").val();
 
   var productos = data.categorias.accesorios.productos
-  var template = $('#grid_template');
+  var template = $('.thumb');
   var grid = $('#grid');
 
   var counter_id = 0;
