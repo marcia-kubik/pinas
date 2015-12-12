@@ -1,5 +1,6 @@
 body{
   color: black;
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
 }
 .main{
 
@@ -244,7 +245,7 @@ body {
   color: white;
 }
 .bg_red {
-  background-color: #F65E67;
+  background-color: salmon;
   color: white;
 }
 .bg_yellow {
@@ -259,7 +260,7 @@ body {
   color: #00B3AD;
 }
 .red {
-  color: #F65E67;
+  color: salmon;
 }
 .yellow {
   color: #F8BB41;
@@ -313,16 +314,27 @@ body {
 
 
 /*TIENDA*/
-.grid { /* grid container */
+.grid-nombre{
+  margin:40px 10px 5px; 
+  font-size:2em;
+}
+.grid-precio{
+  display:inline; 
+  font-size:1.8em;
+}
+
+
+.grid {
     column-count: 4;
     column-gap: 1em;
 }
 
-.thumb { /* grid bricks or child elements */
+.thumb { 
     background-color: #eee;
     display: inline-block;
     margin: 0 0 1em;
     width: 100%;
+    cursor: pointer;
 }
 .thumb img{
   max-width: 100%;
@@ -421,9 +433,23 @@ body {
 }
 
 #cuadros{
-  margin-top: 20px;
+  margin: 20px;
 }
+#cuadros>div{
+  border:white solid 8px;
+}
+.redes{
+  text-align: right;
+}
+.redes a img{
+  max-width: 30px;
+  padding-top: 15px;
+  margin-right: 8px;
 
-
+}
+.numero-perfil{
+  font-size: 3em;
+  margin-bottom: 30px;
+}
 
 

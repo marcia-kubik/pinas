@@ -77,10 +77,11 @@
 	<div class="container wrapper">
 		<div id="grid" class="grid">
 
-			<div class="template thumb">
-				<div class="img_desc" data-categoria="ropa" data-nombre="un producto" >
+			<div class="template thumb" onclick="cargar_detalle()">
+				<div style="text-align:center;" class="img_desc" data-categoria="ropa" data-nombre="un producto" >
 					<h4 class="grid-nombre">Nombre de producto</h4>
-					<h5 class="grid-precio">Precio</h5>
+			    <span style="font-size:1.2em;" class="green glyphicon glyphicon-usd signo-pesos" aria-hidden="true"></span>
+					<h5 class="grid-precio green">Precio</h5>
 				</div>
 				<img class="grid-imagen" src="imagesjson/2.jpg">
 
@@ -91,6 +92,23 @@
 
 
 	</div>
+
+
+	<footer class="bg_red">
+		<div class="navbar navbar-bottom" id="navigation-example1">
+			<div class="container">
+				<ul class="col-sm-7">
+					<a href="#" class="btn btn-simple" id="aviso_p" style="font-size:1.2em;"> Aviso de privacidad</a>
+				</ul>
+				<ul class="col-sm-5 redes">   
+					<a target="_blank" href="https://es-la.facebook.com"><img id="fb" src="images/facebook.png"></img></a>
+					<a target="_blank" href="https://www.instagram.com/"><img id="ins" src="images/instagram.png"></img></a>
+					<a target="_blank" href="https://es.pinterest.com/"><img id="pin" src="images/pinterest.png"></img></a>
+					<a target="_blank" href="https://twitter.com/"><img id="twitter" src="images/twitter.png"></img></a>
+				</ul>
+			</div>
+		</div>
+	</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="js/modernizr.js"></script>

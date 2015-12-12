@@ -23,85 +23,80 @@
 	</head>
 	
 	<body onload="ini()">
-		<nav class="navbar navbar-relative rnavbar-ct-transparent" role="navigation-demo" id="register-navbar">
-		  <div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
+	<nav class="navbar navbar-interior" role="navigation">
+		<div class="container">
 			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			  </button>
-			  <a class="navbar-brand" href="index.html">Tu no vendes piñas</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 			</div>
-		
-			
-			<div class="collapse navbar-collapse" id="navigation-example-2">
-			  <ul class="nav navbar-nav navbar-right">
-					<a href="index.html" class="btn btn-simple"> Inicio</a>
-					<a href="index.html" class="btn btn-simple">Cerrar sesión</a>
-					
-			   </ul>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a class="menu-link-interior" href="tienda.html">Tienda</a></li>
+					<li><a class="menu-logo-interior" href="index.html"><img src="images/logo.png"></a></li>
+					<li><a class="menu-link-interior" href="perfil.html">Mi perfil</a></li>
+				</ul>
 			</div>
-		  </div>
-		</nav> 
+		</div>
+	</nav>
 		
 		<div class="wrapper">
-			<div class="profile-background"> 
+			<!-- <div class="profile-background"> 
 				<div class="filter-black"></div>  
-			</div>
-			<div class="profile-content section-nude">
+			</div> -->
+			<div class="profile-content section-nude" style="margin-top:100px;">
 				<div class="container">
 					<div class="row owner">
 						<div class="col-md-2 col-md-offset-5 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3 text-center">
 							<div class="avatar">
-								<img src="assets/paper_img/placeholder.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+								<img src="images/storm.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
 							</div>
 							<div class="    name">
-								<h4>Juan Perez<br /><small>Juan</small></h4>
+								<h4>Juan Perez<br /><small>juan@tunovendespiñas.com</small></h4>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 text-center">
-							<p>Datos personales</p>
 							<br />
 							<btn class="btn"><i class="fa fa-cog fa-lg fa-spin"></i>  Configuración</btn>
 						</div>
 					</div>
 					
 					<div id="cuadros">
-						<div class="col-sm-2 col-md-offset-1 bg_purple" id="productos_en_el_carrito">
+						<div class="col-sm-4 bg_purple" id="productos_en_el_carrito">
 							<div id="contador"></div>
 							<p id="carro">Productos en el carrito</p>
 							<img id="carrito" src="images/carrito.png"> 
-							<h4><div id="contador"></div></h4>
+							<h4 class="numero-perfil">0</h4>
 						</div>		
-						<div class="col-sm-2 col-md-offset-2 bg_yellow" id="productos_en_camino">
+						<div class="col-sm-4 bg_yellow" id="productos_en_camino">
 							<div id="contador"></div>							
 							<p id="pcam">Productos en camino</p>
 							<img id="camino" src="images/camino.png">
-							<h4><div id="contador"></div></h4>
+							<h4 class="numero-perfil">2</h4>
 						</div>
-						<div class="col-sm-2 col-md-offset-2 bg_green" id="pedidos_entregados">
+						<div class="col-sm-4 bg_green" id="pedidos_entregados">
 							<div id="contador"></div>
 							<p id="pen">Pedidos entregados</p>
 							<img id="entregados" src="images/entregados.png">
-							<h4><div id="contador"></div></h4>
+							<h4 class="numero-perfil">13</h4>
 						</div>
 					</div> 
 				</div>
 			</div>
 		</div>
-		<div class="container"></div>
+
 	<footer>
 		<div class="navbar navbar-bottom" id="navigation-example1">
 			<div class="container">
 				<ul class="nav navbar-bottom navbar-left">
-					<a href="#" class="btn btn-simple" id="aviso_p"> Aviso de privacidad</a>
+					<a href="#" class="btn btn-simple" id="aviso_p" style="font-size:1.2em;"> Aviso de privacidad</a>
 				</ul>
-				<ul class="nav navbar-bottom navbar-right" >   
+				<ul class=" redes nav navbar-bottom navbar-right" style="text-align:right;">   
 					<a target="_blank" href="https://es-la.facebook.com"><img id="fb" src="images/facebook.png"></img></a>
 					<a target="_blank" href="https://www.instagram.com/"><img id="ins" src="images/instagram.png"></img></a>
 					<a target="_blank" href="https://es.pinterest.com/"><img id="pin" src="images/pinterest.png"></img></a>
