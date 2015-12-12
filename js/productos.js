@@ -13,7 +13,7 @@ myDataRef.on("value", function(snapshot) {
 
   productos.forEach(function(producto){
   	var item = template.clone();
-  	console.log("trabajando con" + producto.nombre)
+  	// console.log("trabajando con" + producto.nombre)
   	item.removeClass('template');
   	item.attr('id', 'item' + counter_id++);
   	item.find(".grid-nombre").text(producto.nombre)
@@ -22,7 +22,6 @@ myDataRef.on("value", function(snapshot) {
   	
   });
   activar_hover()
-
 
 });
 
@@ -42,13 +41,14 @@ myDataRef.on("value", function(snapshot) {
   }
 
   function activar_hover(){
-  	console.log("jhgjhgjh")
-  	$('.img_thumb').hover( function(){
+  	$('.thumb').hover( function(){
     target = $(this);
     console.log(target)
+    target.find(".img_desc").first().fadeIn(200);
     target.find(".img_desc").first().fadeIn(200);
 }, function(){
     target = $(this);
     $(target[0].firstElementChild).fadeOut(200);
+    console.log('yesyesyes')
 });
   }

@@ -90,7 +90,7 @@ footer{
   margin-top: 20px;
 }
 .template{
-  display: none;
+  display: none !important;
 }
 .detalle{
 	/*margin-top: 300px;*/
@@ -347,12 +347,13 @@ body {
     -webkit-box-sizing: border-box;
     /*box-shadow: 2px 2px 2px 0 #ccc;*/
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    position: relative;
 
 }
 
 .img_desc{
-/*    width: 100%;
-    height: 100%;*/
+    width: 100%;
+    height: 100%;
     position: absolute;
     z-index: 2;
     background-color: white;
