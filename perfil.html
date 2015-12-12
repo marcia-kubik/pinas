@@ -22,7 +22,7 @@
 		  
 	</head>
 	
-	<body>
+	<body onload="ini()">
 		<nav class="navbar navbar-relative rnavbar-ct-transparent" role="navigation-demo" id="register-navbar">
 		  <div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -73,19 +73,22 @@
 					
 					<div id="cuadros">
 						<div class="col-sm-2 col-md-offset-1 bg_purple" id="productos_en_el_carrito">
+							<div id="contador"></div>
 							<p id="carro">Productos en el carrito</p>
-							<img id="carrito" src="images/carrito.png">  
-							<h3>4</h3>
+							<img id="carrito" src="images/carrito.png"> 
+							<h4><div id="contador"></div></h4>
 						</div>		
 						<div class="col-sm-2 col-md-offset-2 bg_yellow" id="productos_en_camino">
+							<div id="contador"></div>							
 							<p id="pcam">Productos en camino</p>
 							<img id="camino" src="images/camino.png">
-							<h3>4</h3>
+							<h4><div id="contador"></div></h4>
 						</div>
 						<div class="col-sm-2 col-md-offset-2 bg_green" id="pedidos_entregados">
+							<div id="contador"></div>
 							<p id="pen">Pedidos entregados</p>
 							<img id="entregados" src="images/entregados.png">
-							<h3>4</h3>
+							<h4><div id="contador"></div></h4>
 						</div>
 					</div> 
 				</div>
